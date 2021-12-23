@@ -16,7 +16,8 @@ from pretty_confusion_matrix import plot_confusion_matrix_from_data as pretty_co
 #log_file = open("output.log","w")
 #sys.stdout = log_file
 
-BitcoinHeistData = pd.read_csv("C:\\Users\\mxkep\\OneDrive\\HU\\530 Machine Learning\\project\\data\\BitcoinHeistData.csv")
+# this dataset is publicly available at the UCI Machine Learning Repository https://archive.ics.uci.edu/ml/datasets/BitcoinHeistRansomwareAddressDataset
+BitcoinHeistData = pd.read_csv("\\data\\BitcoinHeistData.csv")
 
      
 # Take 10000 random samples from dataset
